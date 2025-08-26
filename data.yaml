@@ -1,0 +1,5 @@
+train: dataset/images/train
+val: dataset/images/train  # Same as train for now
+
+nc: 5
+names: ['CAUTIONARY_WARNING_SIGNS', 'CHEVRON', 'HAZARD', 'INFORMATORY_SIGNS', 'PROHIBITORY_MANDATORY_SIGNS']
