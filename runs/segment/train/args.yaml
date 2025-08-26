@@ -5,7 +5,7 @@ data: data.yaml
 epochs: 500
 time: null
 patience: 10
-batch: 16
+batch: 4
 imgsz: 1024
 save: true
 save_period: -1
@@ -13,7 +13,7 @@ cache: false
 device: '0'
 workers: 8
 project: null
-name: train
+name: train3
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -102,4 +102,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: runs/segment/train
+save_dir: runs/segment/train3
